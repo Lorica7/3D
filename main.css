@@ -97,3 +97,11 @@
     color: #eee;
   }
 }
+@media screen and (prefers-reduced-motion: reduce) {
+  .notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
+}
