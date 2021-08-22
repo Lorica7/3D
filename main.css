@@ -17,6 +17,11 @@ header {
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
+.logo {
+  width: 50px;
+}
+
 .set-width {
   max-width: 980px;
   display: flex;
@@ -119,9 +124,9 @@ ul {
   }
 }
 
-/* .overlay {
+.overlay {
   visibility: hidden;
-} */
+}
 
 /* -------------------------------------For Desktop and Laptop ---------------------------*/
 @media screen and (min-width: 992px) {
