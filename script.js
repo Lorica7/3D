@@ -10,4 +10,8 @@ if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Ph
     showCode.classList.add("overlay");
     showCode.style.visibility = "visible"
     dir.style.visibility = "visible"
+} else {
+      showCode.classList.remove("overlay");
+    showCode.style.visibility = "hidden"
+    dir.style.visibility = "hidden"
 }
