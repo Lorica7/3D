@@ -1,3 +1,17 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************Animation *********************************/
+
 .slit-in-diagonal-1 {
   -webkit-animation: slit-in-diagonal-1 0.45s ease-out both;
   animation: slit-in-diagonal-1 0.45s ease-out both;
@@ -52,6 +66,7 @@
   visibility: hidden;
 }
 
+/* -------------------------------------For Desktop and Laptop ---------------------------*/
 @media screen and (min-width: 992px) {
   .container {
     position: relative;
@@ -97,6 +112,7 @@
     color: #eee;
   }
 }
+
 @media screen and (prefers-reduced-motion: reduce) {
   .notransition {
     -webkit-transition: none !important;
