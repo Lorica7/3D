@@ -124,7 +124,7 @@ ul {
   }
 }
 
-.overlay {
+.overlay.non-mobile.computer-directions {
   visibility: hidden;
 }
 
@@ -172,6 +172,10 @@ ul {
 
   .fa-user:hover {
     color: #eee;
+  }
+
+  .overlay.non-mobile.computer-directions {
+    visibility: visible;
   }
 }
 
