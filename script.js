@@ -1,6 +1,4 @@
-/* On desktop only
-
-when hover or click picture the QR code appears as overlay */
+/* To show the QR code and p tag with instuctions, on non-mobile devices only */
 
 const showCode = document.querySelector(".non-mobile");
 

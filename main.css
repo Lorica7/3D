@@ -129,7 +129,7 @@ ul {
 }
 
 /* -------------------------------------For Desktop and Laptop ---------------------------*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
   .container {
     position: relative;
     width: 100%;
@@ -185,5 +185,34 @@ ul {
     -moz-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image {
+    width: 250px;
+  }
+  .qr-code {
+    width: 250px;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .image {
+    max-width: 300px;
+  }
+  .qr-code {
+    max-width: 300px;
+  }
+  .main-nav {
+    display: none;
+  }
+
+  .set-width {
+    display: flex;
+    justify-content: center;
   }
 }
