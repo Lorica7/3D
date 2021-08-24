@@ -152,7 +152,7 @@ ul {
     width: 100%;
     opacity: 0;
     transition: 0.3s ease;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .container:hover .overlay {
